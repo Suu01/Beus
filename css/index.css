@@ -239,6 +239,8 @@ header div.wrapper div.side-menu ul li a:hover {
 
 main {
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 main section.main-slide {
@@ -246,26 +248,21 @@ main section.main-slide {
   width: 100%;
 }
 
-main section.main-slide div.slide-img {
+main section.main-slide div.slide-img img {
   width: 100%;
   height: 400px;
 }
 
 @media screen and (min-width: 768px) {
-  main section.main-slide div.slide-img {
+  main section.main-slide div.slide-img img {
     height: 600px;
   }
 }
 
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.slide-img {
+  main section.main-slide div.slide-img img {
     height: 843px;
   }
-}
-
-main section.main-slide div.slide-img img {
-  width: 100%;
-  height: 100%;
 }
 
 main section.main-slide div.mban-slide-icon-l {
@@ -324,22 +321,8 @@ main section.main-slide div.banner-txt {
   left: 50%;
   width: 100%;
   padding: 0 20px;
-  text-align: center;
-  margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt {
-    width: 655px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt {
-    width: 1200px;
-  }
 }
 
 main section.main-slide div.banner-txt div.txt {

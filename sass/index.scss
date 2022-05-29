@@ -50,6 +50,11 @@ header {
     
                     @include responsive(tablet-size) {
                         display: block;
+                        margin-right: 20px;
+                    }
+
+                    @include responsive(pc-size) {
+                        display: block;
                         margin-right: 35px;
                     }
     
@@ -113,7 +118,7 @@ header {
     
                     @include responsive(tablet-size) {
                         display: block;
-                        margin-left: 35px;
+                        margin-left: 30px;
                     }
     
                     &:last-child {
@@ -341,15 +346,15 @@ main {
         padding: 50px 20px;
         background-color: $sub-bg-color;
 
+        @include responsive(tablet-size) {
+            padding: 70px 20px 100px 20px;
+        }
+
         div.pd-wrap {
             position: relative;
             width: 100%;
             max-width: 1320px;
             margin: 0 auto;
-
-            @include responsive(tablet-size) {
-                padding: 70px 20px 100px 20px;
-            }
 
             div.pd-area-title {
                 width: 100%;
@@ -664,11 +669,15 @@ main {
     // section.event
     section.event {
         width: 100%;
+        padding: 50px 20px;
+
+        @include responsive(tablet-size) {
+            padding: 70px 20px;
+        }
         
         div.ev-wrapper {
             width: 100%;
             max-width: 1320px;
-            padding: 40px 20px;
             margin: 0 auto;
 
             div.event-title {

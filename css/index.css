@@ -132,6 +132,13 @@ header div.wrapper nav.main-menu ul.gnb li {
 @media screen and (min-width: 768px) {
   header div.wrapper nav.main-menu ul.gnb li {
     display: block;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  header div.wrapper nav.main-menu ul.gnb li {
+    display: block;
     margin-right: 35px;
   }
 }
@@ -202,7 +209,7 @@ header div.wrapper div.side-menu ul li {
 @media screen and (min-width: 768px) {
   header div.wrapper div.side-menu ul li {
     display: block;
-    margin-left: 35px;
+    margin-left: 30px;
   }
 }
 
@@ -447,17 +454,17 @@ main section.pd-sec {
   background-color: #fffaf6;
 }
 
+@media screen and (min-width: 768px) {
+  main section.pd-sec {
+    padding: 70px 20px 100px 20px;
+  }
+}
+
 main section.pd-sec div.pd-wrap {
   position: relative;
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  main section.pd-sec div.pd-wrap {
-    padding: 70px 20px 100px 20px;
-  }
 }
 
 main section.pd-sec div.pd-wrap div.pd-area-title {
@@ -815,12 +822,18 @@ main section.find div.find-wrap div.find-ab a:hover {
 
 main section.event {
   width: 100%;
+  padding: 50px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  main section.event {
+    padding: 70px 20px;
+  }
 }
 
 main section.event div.ev-wrapper {
   width: 100%;
   max-width: 1320px;
-  padding: 40px 20px;
   margin: 0 auto;
 }
 

@@ -32,7 +32,7 @@ header {
         justify-content: space-between;
         align-items: center;
 
-        @include responsive(pc-size) {
+        @include responsive(tablet-size) {
             max-width: 1320px;
             margin: 0 auto;
         }
@@ -56,6 +56,10 @@ header {
                     @include responsive(pc-size) {
                         display: block;
                         margin-right: 35px;
+
+                        &:last-child {
+                            margin-right: 35px;
+                        }
                     }
     
                     &:last-child {
@@ -119,6 +123,10 @@ header {
                     @include responsive(tablet-size) {
                         display: block;
                         margin-left: 30px;
+
+                        &:first-child {
+                        margin-left: 0;
+                        }
                     }
     
                     &:last-child {

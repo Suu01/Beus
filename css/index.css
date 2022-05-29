@@ -107,7 +107,7 @@ header div.wrapper {
           align-items: center;
 }
 
-@media screen and (min-width: 1320px) {
+@media screen and (min-width: 768px) {
   header div.wrapper {
     max-width: 1320px;
     margin: 0 auto;
@@ -139,6 +139,9 @@ header div.wrapper nav.main-menu ul.gnb li {
 @media screen and (min-width: 1320px) {
   header div.wrapper nav.main-menu ul.gnb li {
     display: block;
+    margin-right: 35px;
+  }
+  header div.wrapper nav.main-menu ul.gnb li:last-child {
     margin-right: 35px;
   }
 }
@@ -210,6 +213,9 @@ header div.wrapper div.side-menu ul li {
   header div.wrapper div.side-menu ul li {
     display: block;
     margin-left: 30px;
+  }
+  header div.wrapper div.side-menu ul li:first-child {
+    margin-left: 0;
   }
 }
 

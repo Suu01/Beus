@@ -267,6 +267,12 @@ main section.main-slide div.banner-txt {
   padding: 0 20px;
   transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 768px) {
+  main section.main-slide div.banner-txt {
+    width: 90%;
+    margin: auto;
+  }
+}
 main section.main-slide div.banner-txt div.txt {
   color: #fffaf6;
 }
@@ -574,6 +580,8 @@ main section.brand .brand-text h2:last-child {
   margin-bottom: 0;
 }
 main section.brand .brand-text h2 a {
+  width: 50%;
+  margin: auto;
   font-size: 34px;
   font-weight: 700;
   letter-spacing: 2.5px;

@@ -241,6 +241,15 @@ main {
             text-align: center;
             padding: 0 20px;
             transform: translate(-50%, -50%);
+
+            @include responsive(tablet-size) {
+                width: 90%;
+                margin: auto;
+            }
+
+            @include responsive(pc-size) {
+                
+            }
     
             div.txt {
                 color: $sub-bg-color;
@@ -571,6 +580,8 @@ main {
                 }
 
                 a {
+                    width: 50%;
+                    margin: auto;
                     font-size: 34px;
                     font-weight: 700;
                     letter-spacing: 2.5px;

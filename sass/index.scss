@@ -166,8 +166,8 @@ main {
         position: relative;
         width: 100%;
 
+       div.slide {
         div.slide-img {
-
             img {
                 width: 100%;
                 height: 400px;
@@ -346,6 +346,15 @@ main {
                 }
             }
         }
+       }
+
+       div.slide2 {
+        display: none;
+       }
+
+       div.slide3 {
+        display: none;
+       }
     }
 
     // section.pd-sec

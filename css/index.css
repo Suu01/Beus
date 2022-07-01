@@ -202,25 +202,25 @@ main section.main-slide {
   position: relative;
   width: 100%;
 }
-main section.main-slide div.slide-img img {
+main section.main-slide div.slide div.slide-img img {
   width: 100%;
   height: 400px;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.slide-img img {
+  main section.main-slide div.slide div.slide-img img {
     height: 600px;
   }
 }
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.slide-img img {
+  main section.main-slide div.slide div.slide-img img {
     height: 843px;
   }
 }
-main section.main-slide div.mban-slide-icon-l {
+main section.main-slide div.slide div.mban-slide-icon-l {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.mban-slide-icon-l {
+  main section.main-slide div.slide div.mban-slide-icon-l {
     display: block;
     padding: 0 20px;
     position: absolute;
@@ -230,18 +230,18 @@ main section.main-slide div.mban-slide-icon-l {
   }
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.mban-slide-icon-l a img {
+  main section.main-slide div.slide div.mban-slide-icon-l a img {
     opacity: 0.4;
   }
-  main section.main-slide div.mban-slide-icon-l a img:hover {
+  main section.main-slide div.slide div.mban-slide-icon-l a img:hover {
     opacity: 1;
   }
 }
-main section.main-slide div.mban-slide-icon-r {
+main section.main-slide div.slide div.mban-slide-icon-r {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.mban-slide-icon-r {
+  main section.main-slide div.slide div.mban-slide-icon-r {
     display: block;
     padding: 0 20px;
     position: absolute;
@@ -251,14 +251,14 @@ main section.main-slide div.mban-slide-icon-r {
   }
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.mban-slide-icon-r a img {
+  main section.main-slide div.slide div.mban-slide-icon-r a img {
     opacity: 0.4;
   }
-  main section.main-slide div.mban-slide-icon-r a img:hover {
+  main section.main-slide div.slide div.mban-slide-icon-r a img:hover {
     opacity: 1;
   }
 }
-main section.main-slide div.banner-txt {
+main section.main-slide div.slide div.banner-txt {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -268,34 +268,34 @@ main section.main-slide div.banner-txt {
   transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt {
+  main section.main-slide div.slide div.banner-txt {
     width: 90%;
     margin: auto;
   }
 }
-main section.main-slide div.banner-txt div.txt {
+main section.main-slide div.slide div.banner-txt div.txt {
   color: #fffaf6;
 }
-main section.main-slide div.banner-txt div.txt h2 {
+main section.main-slide div.slide div.banner-txt div.txt h2 {
   font-size: 40px;
   letter-spacing: 5px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt div.txt h2 {
+  main section.main-slide div.slide div.banner-txt div.txt h2 {
     font-weight: 500;
     font-size: 70px;
     letter-spacing: 8px;
   }
 }
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.banner-txt div.txt h2 {
+  main section.main-slide div.slide div.banner-txt div.txt h2 {
     font-size: 100px;
     letter-spacing: 10px;
     margin-bottom: 45px;
   }
 }
-main section.main-slide div.banner-txt div.txt p.ban1-des1 {
+main section.main-slide div.slide div.banner-txt div.txt p.ban1-des1 {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
@@ -303,24 +303,24 @@ main section.main-slide div.banner-txt div.txt p.ban1-des1 {
   margin-bottom: 35px;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt div.txt p.ban1-des1 {
+  main section.main-slide div.slide div.banner-txt div.txt p.ban1-des1 {
     font-size: 30px;
     letter-spacing: 2px;
   }
 }
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.banner-txt div.txt p.ban1-des1 {
+  main section.main-slide div.slide div.banner-txt div.txt p.ban1-des1 {
     font-size: 36px;
     margin-bottom: 50px;
     letter-spacing: 3px;
   }
 }
-main section.main-slide div.banner-txt div.txt p.ban1-des2 {
+main section.main-slide div.slide div.banner-txt div.txt p.ban1-des2 {
   font-family: "Noto Sans KR", sans-serif;
   display: none;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.banner-txt div.txt p.ban1-des2 {
+  main section.main-slide div.slide div.banner-txt div.txt p.ban1-des2 {
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -329,12 +329,12 @@ main section.main-slide div.banner-txt div.txt p.ban1-des2 {
   }
 }
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.banner-txt div.txt p.ban1-des2 {
+  main section.main-slide div.slide div.banner-txt div.txt p.ban1-des2 {
     font-size: 22px;
     letter-spacing: 2.5px;
   }
 }
-main section.main-slide div.mban-btm-icon {
+main section.main-slide div.slide div.mban-btm-icon {
   display: flex;
   position: absolute;
   bottom: 15px;
@@ -344,16 +344,16 @@ main section.main-slide div.mban-btm-icon {
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-  main section.main-slide div.mban-btm-icon {
+  main section.main-slide div.slide div.mban-btm-icon {
     bottom: 20px;
   }
 }
 @media screen and (min-width: 1320px) {
-  main section.main-slide div.mban-btm-icon {
+  main section.main-slide div.slide div.mban-btm-icon {
     bottom: 25px;
   }
 }
-main section.main-slide div.mban-btm-icon a {
+main section.main-slide div.slide div.mban-btm-icon a {
   width: 8px;
   height: 8px;
   background-color: #fffaf6;
@@ -361,11 +361,17 @@ main section.main-slide div.mban-btm-icon a {
   border-radius: 50%;
   margin-right: 5px;
 }
-main section.main-slide div.mban-btm-icon a:hover {
+main section.main-slide div.slide div.mban-btm-icon a:hover {
   opacity: 1;
 }
-main section.main-slide div.mban-btm-icon a:last-child {
+main section.main-slide div.slide div.mban-btm-icon a:last-child {
   margin-right: 0;
+}
+main section.main-slide div.slide2 {
+  display: none;
+}
+main section.main-slide div.slide3 {
+  display: none;
 }
 main section.pd-sec {
   padding: 50px 20px;

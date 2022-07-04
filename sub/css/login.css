@@ -197,10 +197,20 @@ header div.wrapper div.side-menu ul li a:hover {
 
 main .main-wrapper {
   width: 100%;
-  max-width: 1320px;
+  max-width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding: 0 50px;
+  padding: 0 40px;
+}
+@media screen and (min-width: 768px) {
+  main .main-wrapper {
+    margin: 100px auto;
+  }
+}
+@media screen and (min-width: 1320px) {
+  main .main-wrapper {
+    margin: 150px auto;
+  }
 }
 main .main-wrapper form h2 {
   font-size: 1.8rem;
@@ -208,7 +218,6 @@ main .main-wrapper form h2 {
 }
 main .main-wrapper form input {
   width: 100%;
-  max-width: 500px;
   background-color: transparent;
   outline: none;
   border: 1.5px solid gray;
@@ -218,7 +227,6 @@ main .main-wrapper form input {
 }
 main .main-wrapper form button {
   width: 100%;
-  max-width: 500px;
   padding: 10px;
   margin: 30px 0;
   font-size: 1.2rem;
@@ -230,8 +238,6 @@ main .main-wrapper form button {
   cursor: pointer;
 }
 main .main-wrapper form div {
-  width: 100%;
-  max-width: 500px;
   text-align: right;
   margin: 15px 0;
 }

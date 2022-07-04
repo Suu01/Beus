@@ -195,6 +195,55 @@ header div.wrapper div.side-menu ul li a:hover {
   }
 }
 
+main .main-wrapper {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 50px;
+}
+main .main-wrapper form h2 {
+  font-size: 1.8rem;
+  margin: 3rem 0;
+}
+main .main-wrapper form input {
+  width: 100%;
+  max-width: 500px;
+  background-color: transparent;
+  outline: none;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+main .main-wrapper form button {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 30px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  color: #fbf4ef;
+  background-color: #1f4095;
+  cursor: pointer;
+}
+main .main-wrapper form div {
+  width: 100%;
+  max-width: 500px;
+  text-align: right;
+  margin: 15px 0;
+}
+main .main-wrapper form div p {
+  font-size: 0.5rem;
+  display: inline-block;
+  margin-right: 15px;
+}
+main .main-wrapper form div p:last-child {
+  margin-right: 5px;
+}
+
 footer {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fbf4ef+0,52669a+60,1f4095+100 */
   background: #fbf4ef;

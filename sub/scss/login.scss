@@ -156,10 +156,68 @@ header {
     }
 }
 
-// main-area
-// main {
 
-// }
+// main-area
+main {
+    // background-color: aqua;
+
+    .main-wrapper {
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 50px;
+
+        form {
+            h2 {
+                font-size: 1.8rem;
+                margin: 3rem 0;
+            }
+
+            input {
+                width: 100%;
+                max-width: 500px;
+                background-color: transparent;
+                outline: none;
+                border: 1.5px solid gray;
+                border-radius: 5px;
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+
+            button {
+                width: 100%;
+                max-width: 500px;
+                padding: 10px;
+                margin: 30px 0;
+                font-size: 1.2rem;
+                font-weight: 600;
+                border: none;
+                border-radius: 5px;
+                color: $bg-color;
+                background-color: $main-color;
+                cursor: pointer;
+            }
+
+            div {
+                width: 100%;
+                max-width: 500px;
+                text-align: right;
+                margin: 15px 0;
+
+                p {
+                    font-size: 0.5rem;
+                    display: inline-block;
+                    margin-right: 15px;
+
+                    &:last-child {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 // footer-area
 footer {

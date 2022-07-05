@@ -156,7 +156,7 @@ header {
     }
 
     div.sub-menu {
-        width: 100%;
+        width: 0%;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -242,46 +242,46 @@ main {
         position: relative;
         width: 100%;
 
-       div.slide {
-        div.slide-img {
-            img {
-                width: 100%;
-                height: 400px;
+        div.slide {
+            div.slide-img {
+                img {
+                    width: 100%;
+                    height: 400px;
+
+                    @include responsive(tablet-size) {
+                        height: 600px;
+                    }
+
+                    @include responsive(pc-size) {
+                        height: 843px;
+                    }
+                }
+            }
+
+            div.mban-slide-icon-l {
+                display: none;
 
                 @include responsive(tablet-size) {
-                    height: 600px;
+                    display: block;
+                    padding: 0 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translate(0, -50%);
                 }
 
-                @include responsive(pc-size) {
-                    height: 843px;
-                }
-            }
-        }
-
-        div.mban-slide-icon-l {
-            display: none;
-
-            @include responsive(tablet-size) {
-                display: block;
-                padding: 0 20px;
-                position: absolute;
-                top: 50%;
-                left: 0;
-                transform: translate(0, -50%);
-            }
-
-            a {
-                img {
-                    @include responsive (tablet-size) {
-                        opacity: 0.4;
-                    
-                        &:hover {
-                            opacity: 1;
+                a {
+                    img {
+                        @include responsive (tablet-size) {
+                            opacity: 0.4;
+                        
+                            &:hover {
+                                opacity: 1;
+                            }
                         }
                     }
                 }
             }
-        }
 
         div.mban-slide-icon-r {
             display: none;
@@ -620,6 +620,7 @@ main {
             height: auto;
 
             img {
+                transition: all 0.5s ease-in-out;
                 width: 100%;
                 height: 450px;
 

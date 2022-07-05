@@ -195,7 +195,7 @@ header div.wrapper div.side-menu ul li a:hover {
   }
 }
 header div.sub-menu {
-  width: 100%;
+  width: 0%;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -605,6 +605,7 @@ main section.brand div.brand-img {
   height: auto;
 }
 main section.brand div.brand-img img {
+  transition: all 0.5s ease-in-out;
   width: 100%;
   height: 450px;
 }

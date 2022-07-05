@@ -81,6 +81,7 @@ header {
   width: 100%;
   height: 60px;
   z-index: 1;
+  transition: 0.5s;
   background-color: #fffaf6;
 }
 @media screen and (min-width: 768px) {
@@ -95,6 +96,7 @@ header div.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   header div.wrapper {
@@ -106,9 +108,11 @@ header div.wrapper nav.main-menu ul.gnb {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  transition: 0.5s;
 }
 header div.wrapper nav.main-menu ul.gnb li {
   display: none;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   header div.wrapper nav.main-menu ul.gnb li {
@@ -133,6 +137,9 @@ header div.wrapper nav.main-menu ul.gnb li:last-child {
     display: none;
   }
 }
+header div.wrapper nav.main-menu ul.gnb li a {
+  transition: 0.5s;
+}
 header div.wrapper nav.main-menu ul.gnb li a:hover {
   text-decoration: underline;
 }
@@ -153,6 +160,7 @@ header div.wrapper div.logo-wrap {
   transform: translate(-50%, -50%);
 }
 header div.wrapper div.logo-wrap a img {
+  transition: 0.5s;
   width: 32px;
   height: auto;
 }
@@ -170,6 +178,7 @@ header div.wrapper div.logo-wrap a img {
 }
 header div.wrapper div.side-menu ul li {
   display: none;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   header div.wrapper div.side-menu ul li {
@@ -182,9 +191,13 @@ header div.wrapper div.side-menu ul li {
 }
 header div.wrapper div.side-menu ul li:last-child {
   display: block;
+  transition: 0.3s;
 }
 header div.wrapper div.side-menu ul li:last-child:hover {
   opacity: 0.5;
+}
+header div.wrapper div.side-menu ul li a {
+  transition: 0.5s;
 }
 header div.wrapper div.side-menu ul li a:hover {
   text-decoration: underline;
@@ -266,6 +279,7 @@ main section.main-slide {
   width: 100%;
 }
 main section.main-slide div.slide div.slide-img img {
+  transition: 0.5s;
   width: 100%;
   height: 400px;
 }
@@ -280,6 +294,7 @@ main section.main-slide div.slide div.slide-img img {
   }
 }
 main section.main-slide div.slide div.mban-slide-icon-l {
+  transition: 0.5s;
   display: none;
 }
 @media screen and (min-width: 768px) {
@@ -292,6 +307,9 @@ main section.main-slide div.slide div.mban-slide-icon-l {
     transform: translate(0, -50%);
   }
 }
+main section.main-slide div.slide div.mban-slide-icon-l a img {
+  transition: 0.3s;
+}
 @media screen and (min-width: 768px) {
   main section.main-slide div.slide div.mban-slide-icon-l a img {
     opacity: 0.4;
@@ -301,6 +319,7 @@ main section.main-slide div.slide div.mban-slide-icon-l {
   }
 }
 main section.main-slide div.slide div.mban-slide-icon-r {
+  transition: 0.5s;
   display: none;
 }
 @media screen and (min-width: 768px) {
@@ -313,6 +332,9 @@ main section.main-slide div.slide div.mban-slide-icon-r {
     transform: translate(0, -50%);
   }
 }
+main section.main-slide div.slide div.mban-slide-icon-r a img {
+  transition: 0.3s;
+}
 @media screen and (min-width: 768px) {
   main section.main-slide div.slide div.mban-slide-icon-r a img {
     opacity: 0.4;
@@ -322,6 +344,7 @@ main section.main-slide div.slide div.mban-slide-icon-r {
   }
 }
 main section.main-slide div.slide div.banner-txt {
+  transition: 0.5s;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -340,6 +363,7 @@ main section.main-slide div.slide div.banner-txt div.txt {
   color: #fffaf6;
 }
 main section.main-slide div.slide div.banner-txt div.txt h2 {
+  transition: 0.5s;
   font-size: 40px;
   letter-spacing: 5px;
   margin-bottom: 30px;
@@ -359,6 +383,7 @@ main section.main-slide div.slide div.banner-txt div.txt h2 {
   }
 }
 main section.main-slide div.slide div.banner-txt div.txt p.ban1-des1 {
+  transition: 0.5s;
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
@@ -379,6 +404,7 @@ main section.main-slide div.slide div.banner-txt div.txt p.ban1-des1 {
   }
 }
 main section.main-slide div.slide div.banner-txt div.txt p.ban1-des2 {
+  transition: 0.5s;
   font-family: "Noto Sans KR", sans-serif;
   display: none;
 }
@@ -405,6 +431,7 @@ main section.main-slide div.slide div.mban-btm-icon {
   transform: translate(-50%, 0);
   text-align: center;
   margin: 0 auto;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.main-slide div.slide div.mban-btm-icon {
@@ -419,10 +446,11 @@ main section.main-slide div.slide div.mban-btm-icon {
 main section.main-slide div.slide div.mban-btm-icon a {
   width: 8px;
   height: 8px;
-  background-color: #fffaf6;
   opacity: 0.4;
   border-radius: 50%;
   margin-right: 5px;
+  transition: 0.5s;
+  background-color: #fffaf6;
 }
 main section.main-slide div.slide div.mban-btm-icon a:hover {
   opacity: 1;
@@ -438,6 +466,7 @@ main section.main-slide div.slide3 {
 }
 main section.pd-sec {
   padding: 50px 20px;
+  transition: 0.5s;
   background-color: #fffaf6;
 }
 @media screen and (min-width: 768px) {
@@ -458,6 +487,7 @@ main section.pd-sec div.pd-wrap div.pd-area-title h2 {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 10px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.pd-area-title h2 {
@@ -469,6 +499,7 @@ main section.pd-sec div.pd-wrap div.pd-area-title h2 {
 main section.pd-sec div.pd-wrap div.pd-area-title a {
   font-size: 16px;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.pd-area-title a {
@@ -501,6 +532,7 @@ main section.pd-sec div.pd-wrap div.slide-icon a:first-child {
 }
 main section.pd-sec div.pd-wrap div.slide-icon a img {
   opacity: 0.5;
+  transition: 0.3s;
 }
 main section.pd-sec div.pd-wrap div.slide-icon a img:hover {
   opacity: 1;
@@ -519,6 +551,7 @@ main section.pd-sec div.pd-wrap div.product ul.pd {
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li {
   display: none;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.product ul.pd li {
@@ -544,10 +577,10 @@ main section.pd-sec div.pd-wrap div.product ul.pd li:first-child {
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li a {
   width: 100%;
+  font-weight: 500;
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li a:hover {
   text-decoration: underline;
-  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-img {
@@ -555,9 +588,11 @@ main section.pd-sec div.pd-wrap div.product ul.pd li a:hover {
   }
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-img img {
+  transition: 0.5s;
   max-width: 280px;
   height: auto;
   margin: auto;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-img img {
@@ -566,12 +601,14 @@ main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-img img {
   }
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-img img:hover {
-  opacity: 0.4;
+  opacity: 0.7;
+  transform: scale(1.1);
 }
 main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-txt {
   text-align: center;
   font-family: "Noto Sans KR", sans-serif;
   padding: 25px 0;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.pd-sec div.pd-wrap div.product ul.pd li a div.pd-txt {
@@ -605,7 +642,7 @@ main section.brand div.brand-img {
   height: auto;
 }
 main section.brand div.brand-img img {
-  transition: all 0.5s ease-in-out;
+  transition: 0.5s;
   width: 100%;
   height: 450px;
 }
@@ -624,11 +661,17 @@ main section.brand p.be-us-is {
   font-weight: 500;
   color: #fffaf6;
   margin-top: 30px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.brand p.be-us-is {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1320px) {
+  main section.brand p.be-us-is {
     font-size: 25px;
-    margin-top: 70px;
   }
 }
 main section.brand .brand-text {
@@ -637,9 +680,12 @@ main section.brand .brand-text {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.5s;
 }
 main section.brand .brand-text h2 {
+  width: 100%;
   margin-bottom: 25px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.brand .brand-text h2 {
@@ -650,14 +696,21 @@ main section.brand .brand-text h2:last-child {
   margin-bottom: 0;
 }
 main section.brand .brand-text h2 a {
-  width: 50%;
+  display: inline-block;
+  transition: 0.5s;
+  width: auto;
   margin: auto;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.5px;
   color: #fffaf6;
 }
 @media screen and (min-width: 768px) {
+  main section.brand .brand-text h2 a {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1320px) {
   main section.brand .brand-text h2 a {
     font-size: 70px;
     letter-spacing: 4.5px;
@@ -672,6 +725,7 @@ main section.find {
   height: 400px;
   background: url(../images/gradient.png) no-repeat center;
   background-size: cover;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.find {
@@ -684,11 +738,6 @@ main section.find div.find-wrap {
   padding: 0 20px;
   margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
-  main section.find div.find-wrap {
-    padding: 0 20px;
-  }
-}
 main section.find div.find-wrap div.find-ab {
   position: absolute;
   top: 50%;
@@ -697,6 +746,7 @@ main section.find div.find-wrap div.find-ab {
 main section.find div.find-wrap div.find-ab h2 {
   font-weight: 400;
   font-size: 30px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.find div.find-wrap div.find-ab h2 {
@@ -716,6 +766,7 @@ main section.find div.find-wrap div.find-ab p.find-mobile {
 }
 main section.find div.find-wrap div.find-ab p.find-tablet {
   display: none;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.find div.find-wrap div.find-ab p.find-tablet {
@@ -726,6 +777,7 @@ main section.find div.find-wrap div.find-ab p.find-tablet {
   }
 }
 main section.find div.find-wrap div.find-ab a {
+  transition: 0.5s;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -741,6 +793,7 @@ main section.find div.find-wrap div.find-ab a:hover {
 main section.event {
   width: 100%;
   padding: 50px 20px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event {
@@ -759,6 +812,7 @@ main section.event div.ev-wrapper div.event-title h2 {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 10px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-title h2 {
@@ -770,6 +824,7 @@ main section.event div.ev-wrapper div.event-title h2 {
 main section.event div.ev-wrapper div.event-title p a {
   font-size: 16px;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-title p a {
@@ -788,6 +843,7 @@ main section.event div.ev-wrapper div.event-title p a:hover {
 }
 main section.event div.ev-wrapper div.event-des {
   width: 100%;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des {
@@ -804,6 +860,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 {
   }
 }
 main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev {
+  transition: 0.5s;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -824,6 +881,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img a {
   width: 100%;
 }
 main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img a img {
+  transition: 0.5s;
   width: 100%;
   height: auto;
 }
@@ -835,6 +893,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img a img {
 main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des {
   padding: 20px 5px 0 5px;
   width: 100%;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des {
@@ -852,6 +911,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des a h3
   font-family: "Noto Sans KR", sans-serif;
   font-size: 24px;
   margin-bottom: 6px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des a h3 {
@@ -868,11 +928,30 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des a p 
   font-weight: 400;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des a p {
     font-size: 22px;
   }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev1 .ev-img {
+  transition: 0.5s;
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev1 .ev-img:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev1 .ev-img {
+    transition: 0.5s;
+    transform: rotate(2deg);
+  }
+  main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev1 .ev-img:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 {
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 {
@@ -882,6 +961,21 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev .ev-img-des a p 
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 {
     margin-top: -115px;
+  }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 .ev-img {
+  transition: 0.5s;
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 .ev-img:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 .ev-img {
+    transition: 0.5s;
+    transform: rotate(-2deg);
+  }
+  main section.event div.ev-wrapper div.event-des .ev-flex-b1 .ev2 .ev-img:hover {
+    transform: rotate(0deg) scale(1.05);
   }
 }
 main section.event div.ev-wrapper div.event-des .ev-flex-b2 {
@@ -896,6 +990,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 {
 main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev {
   width: 100%;
   margin-bottom: 50px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev {
@@ -914,6 +1009,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img a {
   width: 100%;
 }
 main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img a img {
+  transition: 0.5s;
   width: 100%;
   height: auto;
 }
@@ -925,6 +1021,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img a img {
 main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des {
   padding: 20px 5px 0 5px;
   width: 100%;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des {
@@ -938,6 +1035,7 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des a:ho
   text-decoration: underline;
 }
 main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des a h3 {
+  transition: 0.5s;
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 24px;
@@ -958,16 +1056,38 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des a p 
   font-weight: 400;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des a p {
     font-size: 22px;
   }
 }
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 {
+  transition: 0.5s;
+}
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 {
     margin-top: 45px;
   }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 .ev-img {
+  transition: 0.5s;
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 .ev-img:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 .ev-img {
+    transition: 0.5s;
+    transform: rotate(-2deg);
+  }
+  main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev3 .ev-img:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 {
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 {
@@ -977,6 +1097,21 @@ main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev .ev-img-des a p 
 @media screen and (min-width: 1320px) {
   main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 {
     margin-top: -100px;
+  }
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 .ev-img {
+  transition: 0.5s;
+}
+main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 .ev-img:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 .ev-img {
+    transition: 0.5s;
+    transform: rotate(2deg);
+  }
+  main section.event div.ev-wrapper div.event-des .ev-flex-b2 .ev4 .ev-img:hover {
+    transform: rotate(0deg) scale(1.05);
   }
 }
 
@@ -1016,6 +1151,7 @@ footer div.footer-wrap .footer-des {
 footer div.footer-wrap .footer-des .copy-d {
   width: 100%;
   position: relative;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d {
@@ -1025,6 +1161,7 @@ footer div.footer-wrap .footer-des .copy-d {
 }
 footer div.footer-wrap .footer-des .copy-d .about {
   margin-bottom: 50px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .about {
@@ -1037,6 +1174,7 @@ footer div.footer-wrap .footer-des .copy-d .about h4 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .about h4 {
@@ -1045,6 +1183,7 @@ footer div.footer-wrap .footer-des .copy-d .about h4 {
 }
 footer div.footer-wrap .footer-des .copy-d .about ul li {
   margin-bottom: 8px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .about ul li {
@@ -1063,6 +1202,7 @@ footer div.footer-wrap .footer-des .copy-d .about ul li a:hover {
 }
 footer div.footer-wrap .footer-des .copy-d .contact {
   margin-bottom: 50px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .contact {
@@ -1072,6 +1212,7 @@ footer div.footer-wrap .footer-des .copy-d .contact {
   }
 }
 footer div.footer-wrap .footer-des .copy-d .contact h4 {
+  transition: 0.5s;
   color: #d5d5d5;
   font-style: italic;
   font-size: 20px;
@@ -1084,6 +1225,7 @@ footer div.footer-wrap .footer-des .copy-d .contact h4 {
   }
 }
 footer div.footer-wrap .footer-des .copy-d .contact ul li {
+  transition: 0.5s;
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: 300;
@@ -1097,12 +1239,16 @@ footer div.footer-wrap .footer-des .copy-d .contact ul li {
     margin-bottom: 0;
   }
 }
+footer div.footer-wrap .footer-des .copy-d .social {
+  transition: 0.5s;
+}
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .social {
     text-align: right;
   }
 }
 footer div.footer-wrap .footer-des .copy-d .social h4 {
+  transition: 0.5s;
   color: #d5d5d5;
   font-style: italic;
   font-size: 20px;
@@ -1116,6 +1262,7 @@ footer div.footer-wrap .footer-des .copy-d .social h4 {
 }
 footer div.footer-wrap .footer-des .copy-d .social ul li {
   margin-bottom: 8px;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   footer div.footer-wrap .footer-des .copy-d .social ul li {

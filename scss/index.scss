@@ -18,6 +18,7 @@ header {
     width: 100%;
     height: 60px;
     z-index: 1;
+    transition: 0.5s;
     background-color: $sub-bg-color;
 
     @include responsive(tablet-size) {
@@ -31,6 +32,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: 0.5s;
 
         @include responsive(tablet-size) {
             max-width: 1320px;
@@ -38,15 +40,15 @@ header {
         }
 
         nav.main-menu {
-            // background-color: aqua;
-    
             ul.gnb {
                 display: flex;
                 justify-content: space-between;
                 align-content: center;
+                transition: 0.5s;
     
                 li {
                     display: none;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         display: block;
@@ -71,6 +73,8 @@ header {
                     }
     
                     a {
+                        transition: 0.5s;
+
                         &:hover {
                             text-decoration: underline;
                         }
@@ -88,8 +92,6 @@ header {
         }
     
         div.logo-wrap {
-            // background-color: aqua;
-    
             position: absolute;
             top: 50%;
             left: 50%;
@@ -97,6 +99,7 @@ header {
     
             a {
                 img {
+                    transition: 0.5s;
                     width: 32px;
                     height: auto;
     
@@ -108,8 +111,6 @@ header {
         }
     
         div.side-menu {
-            // background-color: aqua;
-    
             ul {
                 @include responsive(tablet-size) {
                     display: flex;
@@ -119,18 +120,20 @@ header {
                 
                 li {
                     display: none;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         display: block;
                         margin-left: 30px;
 
                         &:first-child {
-                        margin-left: 0;
+                            margin-left: 0;
                         }
                     }
     
                     &:last-child {
                         display: block;
+                        transition: 0.3s;
     
                         &:hover {
                             opacity: 0.5;
@@ -138,6 +141,8 @@ header {
                     }
     
                     a {
+                        transition: 0.5s;
+
                         &:hover {
                             text-decoration: underline;
                         }
@@ -145,10 +150,6 @@ header {
                         @include responsive(pc-size) {
                             font-size: 18px;
                         }
-    
-                        // img {
-    
-                        // }
                     }
                 }
             }
@@ -245,6 +246,7 @@ main {
         div.slide {
             div.slide-img {
                 img {
+                    transition: 0.5s;
                     width: 100%;
                     height: 400px;
 
@@ -259,6 +261,7 @@ main {
             }
 
             div.mban-slide-icon-l {
+                transition: 0.5s;
                 display: none;
 
                 @include responsive(tablet-size) {
@@ -272,6 +275,8 @@ main {
 
                 a {
                     img {
+                        transition: 0.3s;
+
                         @include responsive (tablet-size) {
                             opacity: 0.4;
                         
@@ -283,159 +288,167 @@ main {
                 }
             }
 
-        div.mban-slide-icon-r {
-            display: none;
+            div.mban-slide-icon-r {
+                transition: 0.5s;
+                display: none;
 
-            @include responsive(tablet-size) {
-                display: block;
-                padding: 0 20px;
-                position: absolute;
-                top: 50%;
-                right: 0;
-                transform: translate(0, -50%);
-            }
+                @include responsive(tablet-size) {
+                    display: block;
+                    padding: 0 20px;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translate(0, -50%);
+                }
 
-            a {
-                img {
-                    @include responsive (tablet-size) {
-                        opacity: 0.4;
-                    
-                        &:hover {
-                            opacity: 1;
+                a {
+                    img {
+                        transition: 0.3s;
+
+                        @include responsive (tablet-size) {
+                            opacity: 0.4;
+                        
+                            &:hover {
+                                opacity: 1;
+                            }
                         }
                     }
                 }
             }
-        }
 
-        div.banner-txt {
-            // background-color: aqua;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 100%;
-            text-align: center;
-            padding: 0 20px;
-            transform: translate(-50%, -50%);
+            div.banner-txt {
+                transition: 0.5s;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                text-align: center;
+                padding: 0 20px;
+                transform: translate(-50%, -50%);
 
-            @include responsive(tablet-size) {
-                width: 90%;
-                margin: auto;
-            }
-
-            @include responsive(pc-size) {
-                
-            }
-    
-            div.txt {
-                color: $sub-bg-color;
-
-                h2 {
-                    font-size: 40px;
-                    letter-spacing: 5px;
-                    margin-bottom: 30px;
-
-                    @include responsive(tablet-size) {
-                        font-weight: 500;
-                        font-size: 70px;
-                        letter-spacing: 8px;
-                    }
-
-                    @include responsive(pc-size) {
-                        font-size: 100px;
-                        letter-spacing: 10px;
-                        margin-bottom: 45px;
-                    }
+                @include responsive(tablet-size) {
+                    width: 90%;
+                    margin: auto;
                 }
 
-                p.ban1-des1 {
-                    font-size: 20px;
-                    font-weight: 500;
-                    font-style: italic;
-                    letter-spacing: 1px;
-                    margin-bottom: 35px;
-
-                    @include responsive(tablet-size) {
-                        font-size: 30px;
-                        letter-spacing: 2px;
-                    }
-
-                    @include responsive(pc-size) {
-                        font-size: 36px;
-                        margin-bottom: 50px;
-                        letter-spacing: 3px;
-                    }
+                @include responsive(pc-size) {
+                    
                 }
+        
+                div.txt {
+                    color: $sub-bg-color;
 
-                p.ban1-des2 {
-                    font-family: $k-font;
-                    display: none;
+                    h2 {
+                        transition: 0.5s;
+                        font-size: 40px;
+                        letter-spacing: 5px;
+                        margin-bottom: 30px;
 
-                    @include responsive(tablet-size) {
-                        display: block;
+                        @include responsive(tablet-size) {
+                            font-weight: 500;
+                            font-size: 70px;
+                            letter-spacing: 8px;
+                        }
+
+                        @include responsive(pc-size) {
+                            font-size: 100px;
+                            letter-spacing: 10px;
+                            margin-bottom: 45px;
+                        }
+                    }
+
+                    p.ban1-des1 {
+                        transition: 0.5s;
+                        font-size: 20px;
                         font-weight: 500;
-                        font-size: 16px;
                         font-style: italic;
-                        letter-spacing: 2px;
+                        letter-spacing: 1px;
+                        margin-bottom: 35px;
+
+                        @include responsive(tablet-size) {
+                            font-size: 30px;
+                            letter-spacing: 2px;
+                        }
+
+                        @include responsive(pc-size) {
+                            font-size: 36px;
+                            margin-bottom: 50px;
+                            letter-spacing: 3px;
+                        }
                     }
 
-                    @include responsive(pc-size) {
-                        font-size: 22px;
-                        letter-spacing: 2.5px;
+                    p.ban1-des2 {
+                        transition: 0.5s;
+                        font-family: $k-font;
+                        display: none;
+
+                        @include responsive(tablet-size) {
+                            display: block;
+                            font-weight: 500;
+                            font-size: 16px;
+                            font-style: italic;
+                            letter-spacing: 2px;
+                        }
+
+                        @include responsive(pc-size) {
+                            font-size: 22px;
+                            letter-spacing: 2.5px;
+                        }
+                    }
+                }
+            }
+
+            div.mban-btm-icon {
+                display: flex;
+                position: absolute;
+                bottom: 15px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                text-align: center;
+                margin: 0 auto;
+                transition: 0.5s;
+
+                @include responsive(tablet-size) {
+                    bottom: 20px;
+                }
+
+                @include responsive(pc-size) {
+                    bottom: 25px;
+                }
+
+                a {
+                    width: 8px;
+                    height: 8px;
+                    opacity: 0.4;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                    transition: 0.5s;
+                    background-color: $sub-bg-color;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
                     }
                 }
             }
         }
 
-        div.mban-btm-icon {
-            display: flex;
-            position: absolute;
-            bottom: 15px;
-            left: 50%;
-            transform: translate(-50%, 0);
-            text-align: center;
-            margin: 0 auto;
-            // background-color: aqua;
-
-            @include responsive(tablet-size) {
-                bottom: 20px;
-            }
-
-            @include responsive(pc-size) {
-                bottom: 25px;
-            }
-
-            a {
-                width: 8px;
-                height: 8px;
-                background-color: $sub-bg-color;
-                opacity: 0.4;
-                border-radius: 50%;
-                margin-right: 5px;
-
-                &:hover {
-                    opacity: 1;
-                }
-
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
+        div.slide2 {
+        display: none;
         }
-       }
 
-       div.slide2 {
+        div.slide3 {
         display: none;
-       }
-
-       div.slide3 {
-        display: none;
-       }
+        }
     }
 
     // section.pd-sec
     section.pd-sec {
         padding: 50px 20px;
+        transition: 0.5s;
         background-color: $sub-bg-color;
 
         @include responsive(tablet-size) {
@@ -455,6 +468,7 @@ main {
                     font-weight: 400;
                     font-size: 30px;
                     margin-bottom: 10px;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         font-size: 50px;
@@ -466,6 +480,7 @@ main {
                 a {
                     font-size: 16px;
                     margin-bottom: 30px;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         font-size: 22px;
@@ -489,7 +504,6 @@ main {
                     top: 110px;
                     right: 20px;
                     justify-content: flex-end;
-                    // background-color: aqua;
                 }
     
                 a {
@@ -501,6 +515,7 @@ main {
     
                     img {
                         opacity: 0.5;
+                        transition: 0.3s;
 
                         &:hover {
                             opacity: 1;
@@ -522,6 +537,7 @@ main {
     
                     li {
                         display: none;
+                        transition: 0.5s;
     
                         @include responsive(tablet-size) {
                             display: block;
@@ -546,10 +562,10 @@ main {
     
                         a {
                             width: 100%;
+                            font-weight: 500;
     
                             &:hover {
                                 text-decoration: underline;
-                                font-weight: 500;
                             }
     
                             div.pd-img {
@@ -558,18 +574,20 @@ main {
                                 }
     
                                 img {
+                                    transition: 0.5s;
                                     max-width: 280px;
                                     height: auto;
                                     margin: auto;
+                                    transition: 0.5s;
     
                                     @include responsive(tablet-size) {
                                         width: 100%;
                                         max-width: 330px;
                                     }
         
-    
                                     &:hover {
-                                        opacity: 0.4;
+                                        opacity: 0.7;
+                                        transform: scale(1.1);
                                     }
                                 }
                             }
@@ -578,6 +596,7 @@ main {
                                 text-align: center;
                                 font-family: $k-font;
                                 padding: 25px 0;
+                                transition: 0.5s;
     
                                 @include responsive(tablet-size) {
                                     padding: 35px 0 45px 0;
@@ -620,7 +639,7 @@ main {
             height: auto;
 
             img {
-                transition: all 0.5s ease-in-out;
+                transition: 0.5s;
                 width: 100%;
                 height: 450px;
 
@@ -640,10 +659,15 @@ main {
             font-weight: 500;
             color: $sub-bg-color;
             margin-top: 30px;
+            transition: 0.5s;
 
             @include responsive(tablet-size) {
+                font-size: 22px;
+                margin-top: 50px;
+            }
+
+            @include responsive(pc-size) {
                 font-size: 25px;
-                margin-top: 70px;
             }
         }
 
@@ -653,9 +677,12 @@ main {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            transition: 0.5s;
 
             h2 {
+                width: 100%;
                 margin-bottom: 25px;
+                transition: 0.5s;
 
                 @include responsive(tablet-size) {
                     margin-bottom: 50px;
@@ -666,14 +693,20 @@ main {
                 }
 
                 a {
-                    width: 50%;
+                    display: inline-block;
+                    transition: 0.5s;
+                    width: auto;
                     margin: auto;
-                    font-size: 34px;
+                    font-size: 36px;
                     font-weight: 700;
                     letter-spacing: 2.5px;
                     color: $sub-bg-color;
 
                     @include responsive(tablet-size) {
+                        font-size: 55px;
+                    }
+
+                    @include responsive(pc-size) {
                         font-size: 70px;
                         letter-spacing: 4.5px;
                     }
@@ -693,9 +726,10 @@ main {
         height: 400px;
         background: url(../images/gradient.png) no-repeat center;
         background-size: cover;
+        transition: 0.5s;
 
         @include responsive(tablet-size) {
-                height: 430px;
+            height: 430px;
         }
 
         div.find-wrap {
@@ -703,10 +737,6 @@ main {
             max-width: 1320px;
             padding: 0 20px;
             margin: 0 auto;
-
-            @include responsive(tablet-size) {
-                padding: 0 20px;
-            }
 
             div.find-ab {
                 position: absolute;
@@ -716,6 +746,7 @@ main {
                 h2 {
                     font-weight: 400;
                     font-size: 30px;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         font-weight: 400;
@@ -735,6 +766,7 @@ main {
 
                 p.find-tablet {
                     display: none;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         display: block;
@@ -745,6 +777,7 @@ main {
                 }
         
                 a {
+                    transition: 0.5s;
                     font-family: $k-font;
                     font-size: 18px;
                     font-weight: 500;
@@ -765,6 +798,7 @@ main {
     section.event {
         width: 100%;
         padding: 50px 20px;
+        transition: 0.5s;
 
         @include responsive(tablet-size) {
             padding: 70px 20px;
@@ -782,6 +816,7 @@ main {
                     font-weight: 400;
                     font-size: 30px;
                     margin-bottom: 10px;
+                    transition: 0.5s;
     
                     @include responsive(tablet-size) {
                         font-size: 50px;
@@ -794,6 +829,7 @@ main {
                     a {
                         font-size: 16px;
                         margin-bottom: 30px;
+                        transition: 0.5s;
         
                         @include responsive(tablet-size) {
                             font-size: 22px;
@@ -814,6 +850,7 @@ main {
 
             div.event-des {
                 width: 100%;
+                transition: 0.5s;
 
                 @include responsive(pc-size) {
                     padding: 0 70px;
@@ -821,7 +858,6 @@ main {
                 
                 .ev-flex-b1 {
                     width: 100%;
-                    // background-color: aqua;
 
                     @include responsive(tablet-size) {
                         display: flex;
@@ -829,6 +865,7 @@ main {
                     }
 
                     .ev {
+                        transition: 0.5s;
                         width: 100%;
                         margin-bottom: 50px;
                         
@@ -847,6 +884,7 @@ main {
                                 width: 100%;
 
                                 img {
+                                    transition: 0.5s;
                                     width: 100%;
                                     height: auto;
 
@@ -860,6 +898,7 @@ main {
                         .ev-img-des {
                             padding: 20px 5px 0 5px;
                             width: 100%;
+                            transition: 0.5s;
 
                             @include responsive(pc-size) {
                                 padding: 30px 10px 0 10px;
@@ -877,6 +916,7 @@ main {
                                     font-family: $k-font;
                                     font-size: 24px;
                                     margin-bottom: 6px;
+                                    transition: 0.5s;
 
                                     @include responsive(tablet-size) {
                                         margin-bottom: 8px;
@@ -892,6 +932,7 @@ main {
                                     font-weight: 400;
                                     font-family: $k-font;
                                     font-size: 18px;
+                                    transition: 0.5s;
 
                                     @include responsive(pc-size) {
                                         font-size: 22px;
@@ -901,7 +942,28 @@ main {
                         }
                     }
 
+                    .ev1 {
+                        .ev-img {
+                            transition: 0.5s;
+
+                            &:hover {
+                                transform: scale(1.05);
+                            }
+                            
+                            @include responsive(tablet-size) {
+                                transition: 0.5s;
+                                transform: rotate(2deg);
+
+                                &:hover {
+                                    transform: rotate(0deg) scale(1.05);
+                                }
+                            }
+                        }
+                    }
+
                     .ev2 {
+                        transition: 0.5s;
+
                         @include responsive(tablet-size) {
                             margin-top: -100px;
                         }
@@ -909,12 +971,28 @@ main {
                         @include responsive(pc-size) {
                             margin-top: -115px;
                         }
+
+                        .ev-img {
+                            transition: 0.5s;
+                            
+                            &:hover {
+                                transform: scale(1.05);
+                            }
+
+                            @include responsive(tablet-size) {
+                                transition: 0.5s;
+                                transform: rotate(-2deg);
+
+                                &:hover {
+                                    transform: rotate(0deg) scale(1.05);
+                                }
+                            }
+                        }
                     }
                 }
 
                 .ev-flex-b2 {
                     width: 100%;
-                    // background-color: pink;
                     
                     @include responsive(tablet-size) {
                         display: flex;
@@ -924,6 +1002,7 @@ main {
                     .ev {
                         width: 100%;
                         margin-bottom: 50px;
+                        transition: 0.5s;
                         
                         @include responsive(tablet-size) {
                             width: 45%;
@@ -940,6 +1019,7 @@ main {
                                 width: 100%;
 
                                 img {
+                                    transition: 0.5s;
                                     width: 100%;
                                     height: auto;
 
@@ -953,6 +1033,7 @@ main {
                         .ev-img-des {
                             padding: 20px 5px 0 5px;
                             width: 100%;
+                            transition: 0.5s;
 
                             @include responsive(pc-size) {
                                 padding: 30px 10px 0 10px;
@@ -966,6 +1047,7 @@ main {
                                 }
 
                                 h3 {
+                                    transition: 0.5s;
                                     font-weight: 500;
                                     font-family: $k-font;
                                     font-size: 24px;
@@ -985,6 +1067,7 @@ main {
                                     font-weight: 400;
                                     font-family: $k-font;
                                     font-size: 18px;
+                                    transition: 0.5s;
 
                                     @include responsive(pc-size) {
                                         font-size: 22px;
@@ -995,18 +1078,56 @@ main {
                     }
 
                     .ev3 {
+                        transition: 0.5s;
+
                         @include responsive(tablet-size) {
                             margin-top: 45px;
+                        }
+
+                        .ev-img {
+                            transition: 0.5s;
+                            
+                            &:hover {
+                                transform: scale(1.05);
+                            }
+
+                            @include responsive(tablet-size) {
+                                transition: 0.5s;
+                                transform: rotate(-2deg);
+
+                                &:hover {
+                                    transform: rotate(0deg) scale(1.05);
+                                }
+                            }
                         }
                     }
 
                     .ev4 {
+                        transition: 0.5s;
+
                         @include responsive(tablet-size) {
                             margin-top: -80px;
                         }
 
                         @include responsive(pc-size) {
                             margin-top: -100px;
+                        }
+
+                        .ev-img {
+                            transition: 0.5s;
+                            
+                            &:hover {
+                                transform: scale(1.05);
+                            }
+
+                            @include responsive(tablet-size) {
+                                transition: 0.5s;
+                                transform: rotate(2deg);
+
+                                &:hover {
+                                    transform: rotate(0deg) scale(1.05);
+                                }
+                            }
                         }
                     }
                 }
@@ -1049,6 +1170,7 @@ footer {
             .copy-d {
                 width: 100%;
                 position: relative;
+                transition: 0.5s;
 
                 @include responsive(tablet-size) {
                     display: flex;
@@ -1057,6 +1179,7 @@ footer {
 
                 .about {
                     margin-bottom: 50px;
+                    transition: 0.5s;
 
                     @include responsive(tablet-size) {
                         text-align: left;
@@ -1068,6 +1191,7 @@ footer {
                         font-size: 20px;
                         font-weight: 500;
                         margin-bottom: 15px;
+                        transition: 0.5s;
 
                         @include responsive(tablet-size) {
                             margin-bottom: 30px;
@@ -1078,6 +1202,7 @@ footer {
 
                         li {
                             margin-bottom: 8px;
+                            transition: 0.5s;
 
                             @include responsive(tablet-size) {
                                 margin-bottom: 15px;
@@ -1101,6 +1226,7 @@ footer {
 
                 .contact {
                     margin-bottom: 50px;
+                    transition: 0.5s;
 
                     @include responsive(tablet-size) {
                         position: absolute;
@@ -1109,6 +1235,7 @@ footer {
                     }
 
                     h4 {
+                        transition: 0.5s;
                         color: #d5d5d5;
                         font-style: italic;
                         font-size: 20px;
@@ -1123,6 +1250,7 @@ footer {
                     ul {
 
                         li {
+                            transition: 0.5s;
                             margin-bottom: 8px;
                             font-size: 18px;
                             font-weight: 300;
@@ -1140,12 +1268,14 @@ footer {
                 }
 
                 .social {
+                    transition: 0.5s;
 
                     @include responsive(tablet-size) {
                         text-align: right;
                     }
                     
                     h4 {
+                        transition: 0.5s;
                         color: #d5d5d5;
                         font-style: italic;
                         font-size: 20px;
@@ -1161,6 +1291,7 @@ footer {
 
                         li {
                             margin-bottom: 8px;
+                            transition: 0.5s;
 
                             @include responsive(tablet-size) {
                                 margin-bottom: 15px;

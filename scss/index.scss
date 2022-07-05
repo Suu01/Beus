@@ -20,7 +20,7 @@ header {
     z-index: 1;
     transition: 0.5s;
     background-color: $sub-bg-color;
-
+    
     @include responsive(tablet-size) {
         height: 80px;
     }

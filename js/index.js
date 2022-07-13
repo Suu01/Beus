@@ -16,6 +16,7 @@ window.onload = function() {
     brandTitle1.onmouseover = function() {
         let changeImg1 = `<img src="./images/bgimg1.png">`;
         brandImage.innerHTML = changeImg1;
+        skills.style.transition = "0.5s";
         preventDefault();
     };
     brandTitle2.onmouseover = function() {

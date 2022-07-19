@@ -1,6 +1,6 @@
 # First Project : Be-us
-> Personal Responsive Renewal Website
->> 100% 개인프로젝트 : 반응형 리뉴얼 웹사이트 포트폴리오
+> Responsive Renewal Website
+>> 100% 개인프로젝트 : 반응형 리뉴얼 웹사이트
 - 소요기간 : 1개월 (디자인 + 코딩 포함)
 - 사용기술 : HTML5, CSS3, Sass, Javascript
 - 제작페이지 : 메인페이지, 로그인페이지

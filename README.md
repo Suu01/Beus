@@ -12,7 +12,7 @@
 * * *
 ### 3. PAGE
 
-[Be-us](https://suu01.github.io/index.html)
+[Be-us](https://suu01.github.io/index.html, Be-us)
 
 
 

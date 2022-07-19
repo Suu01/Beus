@@ -1,9 +1,9 @@
 # First Project : Be-us
 > Personal Responsive Renewal Portfolio Website
 >> 개인프로젝트
->> 소요기간 : 1개월 (디자인 + 코딩 포함)
->> 사용기술 : HTML5, CSS3, Sass, Javascript
->> 사용기술 : 메인페이지, 로그인페이지
+- 소요기간 : 1개월 (디자인 + 코딩 포함)
+- 사용기술 : HTML5, CSS3, Sass, Javascript
+- 사용기술 : 메인페이지, 로그인페이지
 
 * * *
 ### 1. CONCEPT

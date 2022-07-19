@@ -1,6 +1,7 @@
 # First Portfolio : Be-us
 > Personal Responsive Renewal Website
 
+* * *
 
 ### 1. CONCEPT
 ![CONCEPT](./images/pf1-d.png)
@@ -19,7 +20,7 @@
 
 - t01.txt
 - t02.txt
-* * *
+
 > 인용문이에요.
 >> 인용문 안에 인용문
 

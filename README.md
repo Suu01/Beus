@@ -1,7 +1,7 @@
 # First Portfolio : Be-us
 > Personal Responsive Renewal Website
-  
-  
+
+
 ### 1. CONCEPT
 ![CONCEPT](./images/pf1-d.png)
   
@@ -24,5 +24,3 @@
 >> 인용문 안에 인용문
 
 [웹사이트방문하기](https://suu01.github.io/index.html, Be-us)
-
-![Mobile](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)

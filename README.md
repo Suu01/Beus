@@ -30,7 +30,7 @@
 
 ###
 ### FONT
-**영어 폰트로는 Roboto, 한글 폰트로는 Noto Sans KR로 사용하였습니다.** 
+**영어 폰트로는 Roboto, 한글 폰트로는 Noto Sans KR을 사용하였습니다.** 
 
 
 * * *

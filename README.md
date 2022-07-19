@@ -1,7 +1,5 @@
 # First Portfolio : Be-us
 
-## Be-us 웹페이지 소개
-
 * * *
 > Personal Responsive Renewal Website
 

@@ -16,7 +16,7 @@
 > 인용문이에요.
 >> 인용문 안에 인용문
 
-[웹사이트방문하기](http://www.naver.com, 검색사이트)
+[웹사이트방문하기](https://suu01.github.io/index.html, Be-us)
 
 ![Mobile](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)
 ![Tablet](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)

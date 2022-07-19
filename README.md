@@ -22,7 +22,11 @@
 ### 2. COLOR & FONT
 ### COLOR
 **bg color, sub color를 사용하여 배경색을 영역별로 교차하여 배치했고, 배경색상과 조화를 이룰 수 있는 푸른 계열의 point color 색상을 선택해 폰트와 포인트 컬러로 활용하였습니다.** 
+> bg color : #fbf4ef (R:251, G:244, B:239)
 
+> point color : #1f4095 (R:31, G:64, B:149)
+
+> sub color : #fffaf6 (R:255, G:250, B:246)
 
 ###
 ### FONT

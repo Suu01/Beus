@@ -1,5 +1,7 @@
 # First Portfolio : Be-us
 
+## Be-us 웹페이지 소개
+
 > Personal Responsive Renewal Website
 
 **일반적인 텍스트를 나타냅니다.**
@@ -19,5 +21,3 @@
 [웹사이트방문하기](https://suu01.github.io/index.html, Be-us)
 
 ![Mobile](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)
-![Tablet](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)
-![PC](https://img.sbs.co.kr/newimg/news/20181023/201241495_1280.jpg)

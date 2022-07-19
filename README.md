@@ -2,7 +2,12 @@
 
 ## Be-us 웹페이지 소개
 
+* * *
 > Personal Responsive Renewal Website
+
+### 1. CONCEPT
+### 2. COLOR & FONT
+### 3. PAGE
 
 **일반적인 텍스트를 나타냅니다.**
 

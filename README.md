@@ -1,6 +1,6 @@
 # First Portfolio : Be-us
 
-## Be-us 웹페이지 소개
+> Personal Responsive Renewal Website
 
 **일반적인 텍스트를 나타냅니다.**
 

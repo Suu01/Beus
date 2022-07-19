@@ -1,5 +1,5 @@
 # First Portfolio : Be-us
-* * *
+
 > Personal Responsive Renewal Website
 
 ### 1. CONCEPT
